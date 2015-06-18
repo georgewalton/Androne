@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startService"
+        android:text="Start service" />
+
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopService"
+        android:text="Stop service" />
+    
+    <Button
+        android:id="@+id/debugCamera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchDebugCamera"
+        android:text="Launch debug video camera" />
+    
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchCamera"
+        android:text="Launch video camera" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="startLaunch"
+        android:text="Launch" />
+
+</LinearLayout>
